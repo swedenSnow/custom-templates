@@ -1,0 +1,130 @@
+/*
+ Theme Name:   Cool Child Theme
+ Description:  This is an awesome theme, at least my mom says so.
+ Template:     twentyfifteen
+ Author:       Marty McFly
+ Version:      BETA 1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(0.6turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-family: 'Raleway', sans-serif;
+}
+/* \(o_o)/ */
+/* \(^Д^)/ */
+/* (>_<) */
+/* //! Change the title fonts for the headers 
+*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Anton';
+    font-weight: 800;
+}
+
+
+a {
+    color: salmon;
+    transition: color 0.5s linear;
+    /* transition-timing-function: border cubic-bezier(.29, 1.01, 1, -0.68); */
+    /* transition: border 0.5s step-end; */
+    /* border-bottom: solid 2px salmon; */
+    color: #000000;
+}
+a:hover{
+    color: rgba(85, 212, 117, 0.822);
+    /* border-bottom: solid 5px brown; */
+
+}
+
+.site-main article{
+    border-radius: 10px;
+}
+
+footer {
+    border-radius: 10px;
+    
+}
+
+.header-entry{
+    border-radius: 8px;
+}
+
+.site-description{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* //! Sidebar title fonts 
+*/
+.site-title{
+    font-family: 'Anton';
+}
+.sidebar h1,h2,h3,h4,h5,h6{
+    font-family: 'Anton';
+  
+}
+
+.comments-title{
+    font-family: 'Anton';
+}
+
+.reply a.comment-reply-link{
+    font-family: 'Raleway', sans-serif;
+}
+
+.comment-reply-title{
+    font-family: 'Anton';
+    
+}
+
+.logged-in-as{
+    font-family: 'Raleway', sans-serif;
+}
+
+.comment-form-comment label{
+    font-family: 'Anton';
+    letter-spacing: 2px;
+    
+}
+
+form .submit{
+    font-family: 'Anton';
+    letter-spacing: 2px;
+      
+}
+
+.nav-links .nav-next span{
+    font-family: 'Anton';
+    letter-spacing: 2px;
+    
+}
+.widget-title{
+    font-family: 'Anton';
+}
+
+.page-header{
+  font-size: 4rem;
+  border-left: none;
+}
+
+article, main .entry-header {
+    transition: 500ms ease-in-out;
+    color: rgb(20, 19, 20);
+}
+.site-info {
+    transition: all 500ms ease-in-out;
+    background-color:#fff;
+    color:#a7a7a7;
+    text-align: center;
+    border-radius: 10px;
+}
+.site-info a{
+    /* color: salmon; */
+    transition: color 0.5s linear;
+}
+
+.site-info a:hover{
+    color:  rgba(85, 212, 117, 0.822);
+}
